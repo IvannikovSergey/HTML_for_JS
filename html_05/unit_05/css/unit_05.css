@@ -10,11 +10,11 @@ table {
     border-collapse: collapse;
 }
 
-.task   {
+.task {
     margin-bottom: 30px;
 }
 
-.section    {
+.section {
     padding: 20px 0;
     margin-bottom: 40px;
 }
@@ -29,11 +29,12 @@ table {
 
 .site-header .header-wrap {
     margin: 40px 0;
-    background-color: rgba(255,255,255,.75);
+    background-color: rgba(255, 255, 255, .75);
     padding: 20px 0;
 }
 
-.site-header h1, .site-header h2 {
+.site-header h1,
+.site-header h2 {
     color: #222;
     font-size: 26px;
     text-align: center;
@@ -86,6 +87,7 @@ p {
     line-height: 150%;
     margin-bottom: 30px;
 }
+
 .bg-orange {
     background: orange;
 }
@@ -112,16 +114,19 @@ p {
     width: 100px;
     height: 100px;
 }
+
 /* Task 1 -------------------------------------- */
 .out-1 {
     border: 1px solid black;
     width: 302px;
     height: 202px;
-    position: relative; 
+    position: relative;
     margin: 50px auto;
 }
 
-.out-1 .t-1, .out-1 .t-2, .out-1 .t-3 {
+.out-1 .t-1,
+.out-1 .t-2,
+.out-1 .t-3 {
     position: relative;
 }
 
@@ -141,11 +146,13 @@ p {
     border: 1px solid black;
     width: 302px;
     height: 202px;
-    position: relative; 
+    position: relative;
     margin: 50px auto;
 }
 
-.out-2 .t-1, .out-2 .t-2, .out-2 .t-3 {
+.out-2 .t-1,
+.out-2 .t-2,
+.out-2 .t-3 {
     position: absolute;
 }
 
@@ -165,11 +172,13 @@ p {
     border: 1px solid black;
     width: 302px;
     height: 202px;
-    position: relative; 
+    position: relative;
     margin: 50px auto;
 }
 
-.out-3 .t-1, .out-3 .t-2, .out-3 .t-3 {
+.out-3 .t-1,
+.out-3 .t-2,
+.out-3 .t-3 {
     position: absolute;
 }
 
@@ -195,17 +204,18 @@ p {
     border: 1px solid black;
     width: 402px;
     height: 202px;
-    position: relative; 
+    position: relative;
     margin: 50px auto;
 }
 
-.out-4 .t-1, .out-4 .t-2, .out-4 .t-3, .out-4 .t-4 {
+.out-4 .t-1,
+.out-4 .t-2,
+.out-4 .t-3,
+.out-4 .t-4 {
     position: absolute;
 }
 
-.out-4 .t-1 {
-
-}
+.out-4 .t-1 {}
 
 .out-4 .t-2 {
     left: 0px;
@@ -229,11 +239,13 @@ p {
     border: 1px solid black;
     width: 402px;
     height: 202px;
-    position: relative; 
+    position: relative;
     margin: 50px auto;
 }
 
-.out-5 .t-1, .out-5 .t-2, .out-5 .t-3 {
+.out-5 .t-1,
+.out-5 .t-2,
+.out-5 .t-3 {
     position: absolute;
     transform: rotateZ(45deg);
     top: 50px;
@@ -262,7 +274,7 @@ p {
 .out-6 .s-6 {
     position: relative;
     bottom: 10px;
-}   
+}
 
 
 /* Task 6 END -------------------------------------- */
@@ -276,8 +288,6 @@ p {
     right: 50px;
     bottom: 50px;
 }
-  
-
 
 /* Task 7 END -------------------------------------- */
 
@@ -286,7 +296,7 @@ p {
     padding: 10px;
     position: relative;
 }
-  
+
 
 .span-8 {
     text-align: center;
@@ -294,7 +304,8 @@ p {
     position: absolute;
     height: 30px;
     line-height: 30px;
-} 
+}
+
 /* Task 8 END -------------------------------------- */
 
 /* Task 9 -------------------------------------- */
@@ -303,23 +314,28 @@ p {
     height: 30px;
     border: 1px solid black;
     box-sizing: content-box;
+    margin: 30px auto;
+    position: relative;
 }
-.out-9.span-9-1 {
+
+.span-9-1,
+.span-9-2,
+.span-9-3 {
     width: 100px;
     height: 30px;
     text-align: center;
     line-height: 30px;
-    position: relative;
+    position: absolute;
 }
-.span-9-1 {
-}
+
+.span-9-1 {}
+
 .span-9-2 {
-    position: relative;
-    left: 50px;
+    left: 100px;
 }
+
 .span-9-3 {
-    position: relative;
-    left: 80px;
+    left: 200px;
 }
 
 
@@ -331,7 +347,29 @@ p {
     height: 90px;
     position: relative;
     /* потом свойство background удалите */
-    background: orange;
+    /* background: orange; */
+}
+
+.block-1,
+.block-2,
+.block-3 {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+
+.block-1 {
+    left: 250px;
+}
+
+.block-2 {
+    left: 400px;
+}
+
+.block-3 {
+    left: 250px;
 }
 
 
