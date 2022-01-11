@@ -253,6 +253,7 @@ figure {
 .nav-10 ul {
     padding-left: 0;
 
+
 }
 
 .nav-10 ul li {
@@ -260,4 +261,5 @@ figure {
     list-style-type: none;
     padding: 10px;
     border: 1px solid #000;
+    /* width: 50%; */
 }
