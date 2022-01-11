@@ -229,7 +229,6 @@ figure {
 .nav-9 {
     padding: 5px;
     float: left;
-    width: 90%;
 }
 
 .nav-9 ul {
@@ -252,8 +251,7 @@ figure {
 
 .nav-10 ul {
     padding-left: 0;
-
-
+    font-size: 0px;
 }
 
 .nav-10 ul li {
@@ -261,5 +259,5 @@ figure {
     list-style-type: none;
     padding: 10px;
     border: 1px solid #000;
-    /* width: 50%; */
+
 }
