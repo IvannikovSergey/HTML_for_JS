@@ -110,27 +110,94 @@ p {
 
 /* ================ task 1 ========================= */
 .out-1 {
+    display: flex;
+    justify-content: center;
 }
 
 /* ================ task 2 ========================= */
 .out-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ================ task 3 ========================= */
 .out-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
 /* ================ task 4 ========================= */
 .out-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
 }
 
 /* ================ task 5 ========================= */
 .out-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
 
 /* ================ task 6 ========================= */
+.out-6 {
+    display: flex;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.out-6::after {
+    content: '';
+    width: 100%;
+    /* background: red; */
+}
+.out-6 .wbr {
+    order: 2;
+}
 
 /* ================ task 7 ========================= */
 
+.out-7 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-start;
+}
+.out-7::after {
+    content: '';
+    width: 100%;
+}
+.out-7 .wbr {
+order: 1;
+}
+
 /* ================ task 8 ========================= */
 
+.out-8 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content:flex-start;
+}
+.out-8::before,
+.out-8::after {
+    content: '';
+    width: 100%;
+    order: 1;
+}
+
+.out-8::after {
+    order: 2;
+}
+
+.out-8 .wbr {
+    order: 2;
+}
+
+.out-8 .wbr2 {
+    order: 3;
+}
