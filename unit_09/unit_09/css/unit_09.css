@@ -155,7 +155,6 @@ p {
     margin: 0;
     grid-template-rows: 50px 200px 50px;
     grid-template-columns: 25% 1fr;
-    padding: 5px;
 }
 
 .out-1 header {
@@ -181,29 +180,231 @@ p {
     grid-template-areas: 'h h h''aside1 main aside2''f f f';
     grid-gap: 10px;
     margin: 0px;
-    padding: 5px;
-    grid-template-rows: ;
-    grid-template-columns: ;
+    grid-template-rows: 50px 200px 50px;
+    grid-template-columns: 25% 1ft 25%;
 }
 
-.out-2 header {}
+.out-2 header {
+    grid-area: h;
+}
 
-.out-2 aside {}
+.out-2 aside1 {
+    grid-area: aside1;
+}
+.out-2 aside2 {
+    grid-area: aside2;
+}
 
-.out-2 main {}
+.out-2 main {
+    grid-area: main;
+}
 
-.out-2 footer {}
+.out-2 footer {
+    grid-area: f;
+}
 
 /* =============== task 3 ============================= */
+.out-3 {
+    display: grid;
+    grid-gap: 10px;
+    margin: 0px;
+    grid-template-areas: 'h h''news1 news3''news2 news4''f f';
+    grid-template-rows: 50px 200px 200px 50px;
+    grid-template-columns: 1ft 1ft;
+}
+.out-3 header {
+    grid-area: h;
+}
+.out-3 footer {
+    grid-area: f;
+}
+/* .out-3 .news-1 {
+    grid-area: news1;
+}
+.out-3 .news-2 {
+    grid-area: news2;
+}
 
+.out-3 .news-2 {
+    grid-area: news3;
+}
+
+.out-3 .news-4 {
+    grid-area: news4;
+} */
 /* =============== task 4 ============================= */
-
+.out-4 {
+    display: grid;
+    grid-template-areas:
+    'h h h'
+    'n1 n1 n2'
+    'n3 n4 n4'
+    'f f f' ;
+    margin: 0px;
+    grid-gap: 10px;
+    grid-template-rows: 50px 200px 200px 50px;
+}
+.out-4 header {
+    grid-area: h;
+}
+.out-4 footer {
+    grid-area: f;
+} 
+.out-4 .news-1 {
+    grid-area: n1;
+}
+.out-4 .news-4 {
+    grid-area: n4;
+}
 /* =============== task 5 ============================= */
-
+.out-5 {
+    display: grid;
+    grid-template-areas:
+    'h h h'
+    'n1 n1 n1'
+    'n2 n3 n4'
+    'f f f' ;
+    margin: 0px;
+    grid-gap: 10px;
+    grid-template-rows: 50px 200px 200px 50px;
+}
+.out-5 header {
+    grid-area: h;
+}
+.out-5 footer {
+    grid-area: f;
+}
+.out-5 .news-1 {
+    grid-area: n1;
+}
 /* =============== task 6 ============================= */
+.out-6 {
+    display: grid;
+    grid-template-areas:
+    'as h h'
+    'as ar nav2'
+    'as ar nav2'
+    'as f f' ;
+    margin: 0px;
+    grid-gap: 10px;
+    grid-template-rows: 50px 200px 200px 50px;
+}
 
+.out-6 .aside {
+    grid-area: as;
+}
+.out-6 header {
+    grid-area: h;
+}
+ .out-6 footer {
+     grid-area: f;
+ }
+
+ .out-6 .article {
+     grid-area: ar;
+ }
+ .out-6 .nav-2 {
+     grid-area: nav2;
+ }
 /* =============== task 7 ============================= */
+.out-7 {
+    display: grid;
+    margin: 0px;
+    grid-gap: 10px;
+    grid-template-rows: 50px 50px 50px 50px;
+}
 
+ .out-7 header {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+.out-7 .news-1 {
+    grid-row: 2;
+    grid-column: 1/2;
+}
+.out-7 .news-2 {
+    grid-row: 2;
+    grid-column: 2/3;
+}
+.out-7 .news-3 {
+    grid-row: 3;
+    grid-column: 1/2;
+}
+.out-7 .news-4 {
+    grid-row: 3;
+    grid-column: 2/3;
+}
+.out-7 .news-5 {
+    grid-row: 3;
+    grid-column: 3/4;
+}
+
+.out-7 footer {
+    grid-row: 4;
+    grid-column: 1/4;
+ }
 /* =============== task 8 ============================= */
+.out-8 {
+    display: grid;
+    grid-template-areas:
+    'h h h'
+    'n1 n2 n4'
+    'n3 n2 n4'
+    'f f f' ;
+    margin: 0px;
+    grid-gap: 10px;
+    grid-template-rows: 50px 50px 50px 50px;
+}
+.out-8 header {
+    grid-area: h;
+}
+.out-8 footer {
+    grid-area: f;
+}
 
+.out-8 .news-2 {
+    grid-area: n2;
+}
+.out-8 .news-4 {
+    grid-area: n4;
+}
 /* =============== task 9 ============================= */
+.out-9 {
+   display: grid;
+    margin: 0px;
+    grid-gap: 10px;
+    grid-template-rows: 50px 50px 50px 50px; 
+}
+
+.out-9 header {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+.out-9 footer {
+    grid-row: 4;
+    grid-column: 1/4;
+}
+.out-9 .out-1 {
+    grid-row: 2;
+    grid-column: 1/4;
+}
+/* .out-9 .news-1 .news-5 {
+    grid-row: 2;
+    grid-column: 2/2;
+}
+.out-9 .news-1 .news-6 {
+    grid-row: 2;
+    grid-column:2/3 ;
+} */
+.out-9 .news-2 {
+    grid-row: 3;
+    grid-column: ;
+}
+.out-9 .news-3 {
+    grid-row: 3;
+    grid-column: ;
+}
+.out-9 .news-4 {
+    grid-row: 3;
+    grid-column: ;
+}
