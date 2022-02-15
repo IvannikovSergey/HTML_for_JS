@@ -164,12 +164,12 @@ section h2 {
 }
 
 .site-header {
-    background: background: rgba(24, 28, 39, 1);
+    background: rgba(24, 28, 39, 1);
     background: -moz-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(24, 28, 39, 1)), color-stop(47%, rgba(12, 32, 56, 1)), color-stop(100%, rgba(24, 28, 39, 1)));
+    /* background: -webkit-gradient(left top, right top, color-stop(0%, rgba(24, 28, 39, 1)), color-stop(47%, rgba(12, 32, 56, 1)), color-stop(100%, rgba(24, 28, 39, 1))); */
     background: -webkit-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
     background: -o-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
-    background: -ms-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
+    /* background: -ms-linear-gradient(left, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%); */
     background: linear-gradient(to right, rgba(24, 28, 39, 1) 0%, rgba(12, 32, 56, 1) 47%, rgba(24, 28, 39, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#181c27', endColorstr='#181c27', GradientType=1);
     padding: 50px 0;
