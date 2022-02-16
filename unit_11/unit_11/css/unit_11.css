@@ -139,7 +139,55 @@ p {
 
 
 /* ================ task 1 ========================= */
+.out-1 .block {
+    width: auto;
+}
+.out-1 {
+    display: grid;
+    grid-template: 'b1 b2 b3 b4';
+    grid-gap: 10px;
+    padding: 10px;    
+}
+.out-1 .b1 {
+    grid-area: b1;
+}
+.out-1 .b2 {
+    grid-area: b2;
+}
+.out-1 .b3 {
+    grid-area: b3;
+}
+.out-1 .b4 {
+    grid-area: b4;
+}
+@media (max-width: 800px) {
+    .block {
+        height: auto;
+    }
+    .out-1 {
+        grid-template-areas: 'b1 b2''b3 b4'
+    }
+}
+@media(max-width: 600px) {
+    .out-1 {
+        grid-template-areas: 'b1''b2''b3''b4';
+    }
+}
+
 
 /* ================ task 2 ========================= */
-
+.out-2 .block {
+    width: auto;
+}
+.out-2 {
+    display: grid;
+    grid-template-areas:
+    'b1 b2 b3'
+    'b4 b4 b4';
+    grid-gap: 10px;
+    padding: 10px;
+}
+.out-2 .b4 {
+    grid-area: b4;
+}
 /* ================ task 3 ========================= */
